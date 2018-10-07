@@ -1,0 +1,31 @@
+ 
+
+1. Open web site https://online.hl.co.uk/apply/account-application/account/70/personal-details/token/7d7c6a71-706b-43ac-8679-7871efb8497b
+2.Insert 1! in field First Name
+
+Expected Result: should be appear the wrong message 'Sorry, but some of the form is incomplete'
+
+
+Scenario 2.
+1. Insert 1! in filed First Name and press Enter
+ Expected Result: shoulb be apper the wrong message :'
+
+Sorry, but some of the form is incomplete - Please review the following points:
+
+    Please select your title
+    Please enter your first name
+    Please enter your last name
+    Please enter date of birth
+    Please select your gender
+    Please select your marital status
+    Please enter your national insurance number
+    Please select your nationality
+    Please select your employment status
+    Please select your retirement age
+    Please enter a valid email address
+    Please enter your phone number
+    Please enter your house number or name
+    Please enter your post code
+    Please select the source'
+
+
