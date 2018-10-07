@@ -1,0 +1,10 @@
+Form USERNAME	Go to website “online.hl.uk“	Web site opened
+	Select list “MR“ from Title	Selected “MR“
+	Insert “--Cebotari “  from form “FirstName“	Inserted in field firstname  „--Cebotari“ and should appear message error
+	Insert “Andrei“  from form “LasttName“	Inserted in field firstname  „Andrei“ 
+		
+	S2	
+	Go to website “online.hl.uk“	Web site opened
+	Select list “MR“ from Title	Selected “MR“
+	Insert “Cebotari “  from form “FirstName“	Inserted in field firstname  „Cebotari“ and should appear message error
+	Insert “1Andrei“  from form “LasttName“	Inserted in field firstname  „1Andrei“  and not should appear message error
